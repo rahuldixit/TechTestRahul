@@ -1,0 +1,6 @@
+{
+    "ScenarioA": {
+      "header": "Introducing AmpCharge\n                            EV charging at home, on the road and for businesses.",
+      "chargingOptions" : ["CCS 1 (125 kW)", "CCS 2 (150 kW)", "CHAdeMO (125 kW)"]
+    }
+}

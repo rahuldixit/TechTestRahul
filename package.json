@@ -1,9 +1,9 @@
 {
-  "name": "sgfleet--testautomation",
+  "name": "ampol--testautomation",
   "version": "1.0.0",
   "description": "E2E testing framework",
   "repository": "https://stash.sgfleet.com/scm/sgftes/sgf-testautomation-framework.git",
-  "author": "SGFleet",
+  "author": "Rahul Dixit",
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
@@ -71,6 +71,7 @@
     "moment": "^2.29.4",
     "papaparse": "^5.4.1",
     "pdf-parse": "^1.1.1",
-    "prettier": "^3.1.0"
+    "prettier": "^3.1.0",
+    "yarn": "^1.22.22"
   }
 }

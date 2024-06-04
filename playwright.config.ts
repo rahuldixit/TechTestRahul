@@ -26,6 +26,7 @@ export default defineConfig({
     navigationTimeout: 30000,     
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on",
+    permissions: ['geolocation']
   },
 
   /* Configure projects for major browsers */
