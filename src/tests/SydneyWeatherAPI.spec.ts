@@ -5,7 +5,7 @@ import { APPCONSTANTS } from "../app.constants";
 import { writeFileSync } from "fs";
 import { join } from "path";
 
-test("Sydney Weather API", async () => {
+test("Sydney Weather API, @api", async () => {
   const response = await getRequest({
     URL: `${APPCONSTANTS.WEATHER_URL}`,
     params: {
