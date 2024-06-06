@@ -38,10 +38,10 @@ a. From Playwright test runner
 
 b. From command line
 
-1.  Run all tests: `npx playwright test`
-2.  To run tests by tag: `npx playwright test -g @tagname`
-    (Example: `npx playwright test -g @regression`)
-3.  Run individual tests: `npx playwright test <test file name>`
+1.  Run all tests: `npx playwright test --headed`
+2.  To run tests by tag: `npx playwright test -g @tagname --headed`
+    (Example: `npx playwright test -g @regression --headed`)
+3.  Run individual tests: `npx playwright test <test file name> --headed`
 
 Refer [Running tests](https://playwright.dev/docs/running-tests) for additional options.
 
